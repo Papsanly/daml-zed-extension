@@ -1,6 +1,6 @@
 name = "Daml"
 grammar = "daml"
-path_suffixes = ["hs"]
+path_suffixes = ["daml"]
 autoclose_before = ",=)}]"
 line_comments = ["-- "]
 block_comment = ["{- ", " -}"]
