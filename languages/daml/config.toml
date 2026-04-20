@@ -1,5 +1,5 @@
 name = "Daml"
-grammar = "daml"
+grammar = "haskell"
 path_suffixes = ["daml"]
 autoclose_before = ",=)}]"
 line_comments = ["-- "]
