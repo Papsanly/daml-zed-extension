@@ -31,12 +31,12 @@ impl zed::Extension for DamlExtension {
         }
 
         let path = worktree
-            .which("daml")
-            .ok_or_else(|| "daml sdk must be installed".to_string())?;
+            .which("dpm")
+            .ok_or_else(|| "daml sdk (dpm) must be installed".to_string())?;
 
         Ok(zed::Command {
             command: path,
-            args: vec!["ide".to_string()],
+            args: vec!["damlc".to_string(), "ide".to_string()],
             env: worktree.shell_env(),
         })
     }

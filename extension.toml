@@ -1,7 +1,7 @@
 id = "daml"
 name = "Daml"
 description = "Daml support."
-version = "0.1.0"
+version = "1.0.0"
 schema_version = 1
 authors = ["Papsanly <papsanlysenko@gmail.com>"]
 repository = "https://github.com/Papsanly/daml-zed-extension"
